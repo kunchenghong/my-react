@@ -2313,14 +2313,14 @@
   dependencies:
     "@typescript-eslint/utils" "5.55.0"
 
-"@typescript-eslint/parser@^5.0.0", "@typescript-eslint/parser@^5.5.0":
-  "integrity" "sha512-ppvmeF7hvdhUUZWSd2EEWfzcFkjJzgNQzVST22nzg958CR+sphy8A6K7LXQZd6V75m1VKjp+J4g/PCEfSCmzhw=="
-  "resolved" "https://registry.npmjs.org/@typescript-eslint/parser/-/parser-5.55.0.tgz"
-  "version" "5.55.0"
+"@typescript-eslint/parser@^5.0.0", "@typescript-eslint/parser@^5.5.0", "@typescript-eslint/parser@^5.56.0":
+  "integrity" "sha512-sn1OZmBxUsgxMmR8a8U5QM/Wl+tyqlH//jTqCg8daTAmhAk26L2PFhcqPLlYBhYUJMZJK276qLXlHN3a83o2cg=="
+  "resolved" "https://registry.npmmirror.com/@typescript-eslint/parser/-/parser-5.56.0.tgz"
+  "version" "5.56.0"
   dependencies:
-    "@typescript-eslint/scope-manager" "5.55.0"
-    "@typescript-eslint/types" "5.55.0"
-    "@typescript-eslint/typescript-estree" "5.55.0"
+    "@typescript-eslint/scope-manager" "5.56.0"
+    "@typescript-eslint/types" "5.56.0"
+    "@typescript-eslint/typescript-estree" "5.56.0"
     "debug" "^4.3.4"
 
 "@typescript-eslint/scope-manager@5.55.0":
@@ -2330,6 +2330,14 @@
   dependencies:
     "@typescript-eslint/types" "5.55.0"
     "@typescript-eslint/visitor-keys" "5.55.0"
+
+"@typescript-eslint/scope-manager@5.56.0":
+  "integrity" "sha512-jGYKyt+iBakD0SA5Ww8vFqGpoV2asSjwt60Gl6YcO8ksQ8s2HlUEyHBMSa38bdLopYqGf7EYQMUIGdT/Luw+sw=="
+  "resolved" "https://registry.npmmirror.com/@typescript-eslint/scope-manager/-/scope-manager-5.56.0.tgz"
+  "version" "5.56.0"
+  dependencies:
+    "@typescript-eslint/types" "5.56.0"
+    "@typescript-eslint/visitor-keys" "5.56.0"
 
 "@typescript-eslint/type-utils@5.55.0":
   "integrity" "sha512-ObqxBgHIXj8rBNm0yh8oORFrICcJuZPZTqtAFh0oZQyr5DnAHZWfyw54RwpEEH+fD8suZaI0YxvWu5tYE/WswA=="
@@ -2346,6 +2354,11 @@
   "resolved" "https://registry.npmjs.org/@typescript-eslint/types/-/types-5.55.0.tgz"
   "version" "5.55.0"
 
+"@typescript-eslint/types@5.56.0":
+  "integrity" "sha512-JyAzbTJcIyhuUhogmiu+t79AkdnqgPUEsxMTMc/dCZczGMJQh1MK2wgrju++yMN6AWroVAy2jxyPcPr3SWCq5w=="
+  "resolved" "https://registry.npmmirror.com/@typescript-eslint/types/-/types-5.56.0.tgz"
+  "version" "5.56.0"
+
 "@typescript-eslint/typescript-estree@5.55.0":
   "integrity" "sha512-I7X4A9ovA8gdpWMpr7b1BN9eEbvlEtWhQvpxp/yogt48fy9Lj3iE3ild/1H3jKBBIYj5YYJmS2+9ystVhC7eaQ=="
   "resolved" "https://registry.npmjs.org/@typescript-eslint/typescript-estree/-/typescript-estree-5.55.0.tgz"
@@ -2353,6 +2366,19 @@
   dependencies:
     "@typescript-eslint/types" "5.55.0"
     "@typescript-eslint/visitor-keys" "5.55.0"
+    "debug" "^4.3.4"
+    "globby" "^11.1.0"
+    "is-glob" "^4.0.3"
+    "semver" "^7.3.7"
+    "tsutils" "^3.21.0"
+
+"@typescript-eslint/typescript-estree@5.56.0":
+  "integrity" "sha512-41CH/GncsLXOJi0jb74SnC7jVPWeVJ0pxQj8bOjH1h2O26jXN3YHKDT1ejkVz5YeTEQPeLCCRY0U2r68tfNOcg=="
+  "resolved" "https://registry.npmmirror.com/@typescript-eslint/typescript-estree/-/typescript-estree-5.56.0.tgz"
+  "version" "5.56.0"
+  dependencies:
+    "@typescript-eslint/types" "5.56.0"
+    "@typescript-eslint/visitor-keys" "5.56.0"
     "debug" "^4.3.4"
     "globby" "^11.1.0"
     "is-glob" "^4.0.3"
@@ -2379,6 +2405,14 @@
   "version" "5.55.0"
   dependencies:
     "@typescript-eslint/types" "5.55.0"
+    "eslint-visitor-keys" "^3.3.0"
+
+"@typescript-eslint/visitor-keys@5.56.0":
+  "integrity" "sha512-1mFdED7u5bZpX6Xxf5N9U2c18sb+8EvU3tyOIj6LQZ5OOvnmj8BVeNNP603OFPm5KkS1a7IvCIcwrdHXaEMG/Q=="
+  "resolved" "https://registry.npmmirror.com/@typescript-eslint/visitor-keys/-/visitor-keys-5.56.0.tgz"
+  "version" "5.56.0"
+  dependencies:
+    "@typescript-eslint/types" "5.56.0"
     "eslint-visitor-keys" "^3.3.0"
 
 "@webassemblyjs/ast@1.11.1":
@@ -8272,62 +8306,7 @@
   dependencies:
     "@remix-run/router" "1.4.0"
 
-"react-scripts@5.0.1":
-  "integrity" "sha512-8VAmEm/ZAwQzJ+GOMLbBsTdDKOpuZh7RPs0UymvBR2vRk4iZWCskjbFnxqjrzoIvlNNRZ3QJFx6/qDSi6zSnaQ=="
-  "resolved" "https://registry.npmjs.org/react-scripts/-/react-scripts-5.0.1.tgz"
-  "version" "5.0.1"
-  dependencies:
-    "@babel/core" "^7.16.0"
-    "@pmmmwh/react-refresh-webpack-plugin" "^0.5.3"
-    "@svgr/webpack" "^5.5.0"
-    "babel-jest" "^27.4.2"
-    "babel-loader" "^8.2.3"
-    "babel-plugin-named-asset-import" "^0.3.8"
-    "babel-preset-react-app" "^10.0.1"
-    "bfj" "^7.0.2"
-    "browserslist" "^4.18.1"
-    "camelcase" "^6.2.1"
-    "case-sensitive-paths-webpack-plugin" "^2.4.0"
-    "css-loader" "^6.5.1"
-    "css-minimizer-webpack-plugin" "^3.2.0"
-    "dotenv" "^10.0.0"
-    "dotenv-expand" "^5.1.0"
-    "eslint" "^8.3.0"
-    "eslint-config-react-app" "^7.0.1"
-    "eslint-webpack-plugin" "^3.1.1"
-    "file-loader" "^6.2.0"
-    "fs-extra" "^10.0.0"
-    "html-webpack-plugin" "^5.5.0"
-    "identity-obj-proxy" "^3.0.0"
-    "jest" "^27.4.3"
-    "jest-resolve" "^27.4.2"
-    "jest-watch-typeahead" "^1.0.0"
-    "mini-css-extract-plugin" "^2.4.5"
-    "postcss" "^8.4.4"
-    "postcss-flexbugs-fixes" "^5.0.2"
-    "postcss-loader" "^6.2.1"
-    "postcss-normalize" "^10.0.1"
-    "postcss-preset-env" "^7.0.1"
-    "prompts" "^2.4.2"
-    "react-app-polyfill" "^3.0.0"
-    "react-dev-utils" "^12.0.1"
-    "react-refresh" "^0.11.0"
-    "resolve" "^1.20.0"
-    "resolve-url-loader" "^4.0.0"
-    "sass-loader" "^12.3.0"
-    "semver" "^7.3.5"
-    "source-map-loader" "^3.0.0"
-    "style-loader" "^3.3.1"
-    "tailwindcss" "^3.0.2"
-    "terser-webpack-plugin" "^5.2.5"
-    "webpack" "^5.64.4"
-    "webpack-dev-server" "^4.6.0"
-    "webpack-manifest-plugin" "^4.0.2"
-    "workbox-webpack-plugin" "^6.4.1"
-  optionalDependencies:
-    "fsevents" "^2.3.2"
-
-"react@*", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^18.0.0", "react@^18.2.0", "react@>= 16", "react@>=16.0.0", "react@>=16.11.0", "react@>=16.8", "react@>=16.9.0":
+"react@*", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^18.0.0", "react@^18.2.0", "react@>=16.0.0", "react@>=16.11.0", "react@>=16.8", "react@>=16.9.0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
@@ -9460,7 +9439,7 @@
   dependencies:
     "is-typedarray" "^1.0.0"
 
-"typescript@^3.2.1 || ^4", "typescript@^5.0.2", "typescript@>= 2.7", "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta":
+"typescript@^5.0.2", "typescript@>= 2.7", "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta":
   "integrity" "sha512-wVORMBGO/FAs/++blGNeAVdbNKtIh1rbBL2EyQ1+J9lClJ93KiiKe8PmFIVdXhHcyv44SL9oglmfeSsndo0jRw=="
   "resolved" "https://registry.npmmirror.com/typescript/-/typescript-5.0.2.tgz"
   "version" "5.0.2"
