@@ -86,7 +86,6 @@ const hasJsxRuntime = (() => {
     return false;
   }
 })();
-
 // This is the production and development configuration.
 // It is focused on developer experience, fast rebuilds, and a minimal bundle.
 module.exports = function (webpackEnv) {
@@ -324,6 +323,7 @@ module.exports = function (webpackEnv) {
           'scheduler/tracing': 'scheduler/tracing-profiling',
         }),
         ...(modules.webpackAliases || {}),
+        '@config': path.resolve(__dirname, '../', 'config')
       },
       plugins: [
         // Prevents users from importing files from outside of src/ (or node_modules/).

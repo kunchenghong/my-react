@@ -8,6 +8,7 @@ import {
   VideoCameraOutlined,
 } from '@ant-design/icons';
 import './index.less';
+import SiderMenu from '../components/SiderMenu';
 
 const { Header, Sider, Content } = Layout;
 
@@ -19,31 +20,7 @@ export default (props) => {
   return (
     <div className='app_home'>
       <Layout className='app_home_layout'>
-        <Sider trigger={null} collapsible collapsed={collapsed}>
-          <div className="logo" />
-          <Menu
-            theme="dark"
-            mode="inline"
-            defaultSelectedKeys={['1']}
-            items={[
-              {
-                key: '1',
-                icon: <UserOutlined />,
-                label: 'nav 1',
-              },
-              {
-                key: '2',
-                icon: <VideoCameraOutlined />,
-                label: 'nav 2',
-              },
-              {
-                key: '3',
-                icon: <UploadOutlined />,
-                label: 'nav 3',
-              },
-            ]}
-          />
-        </Sider>
+        <SiderMenu></SiderMenu>
         <Layout className="site-layout">
           <Header style={{ padding: 0, background: colorBgContainer }}>
             {React.createElement(collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
