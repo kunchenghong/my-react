@@ -22,17 +22,17 @@ import InventoryCenter from './router/InventoryCenter';
 import PaymentCenter from './router/PaymentCenter';
 
 export default [
-  {
-    path: '/user',
-    layout: false,
-    routes: [
-      {
-        name: 'login',
-        path: '/user/login',
-        component: './UserLogin/login',
-      },
-    ],
-  },
+  // {
+  //   path: '/user',
+  //   layout: false,
+  //   routes: [
+  //     {
+  //       name: 'login',
+  //       path: '/user/login',
+  //       component: './UserLogin/login',
+  //     },
+  //   ],
+  // },
   {
     path: '/',
     name: 'welcome',
@@ -47,7 +47,7 @@ export default [
   Retail, // 零售管理
   ChannelCenter, // 渠道中心
   MarketCenter, // 营销中心
-  // ImportDistributionReceive, // 要货-分配-收货
+  ImportDistributionReceive, // 要货-分配-收货
   OrderCenter, // 订单中心
   PaymentCenter, //支付中心
   InventoryCenter, // 库存中心
